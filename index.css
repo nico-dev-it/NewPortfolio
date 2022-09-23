@@ -327,6 +327,10 @@ h3 {
     border-radius: 20px;
 }
 
+.description:hover{
+    background-color: rgba(252, 173, 56, 0.2);
+}
+
 .projectImage {
     width: 400px;
     height: 300px;
