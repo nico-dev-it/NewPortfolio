@@ -9,10 +9,11 @@ body {
     font-weight: 300;
 }
 
-h2{
+h2 {
     margin: 0;
     padding-top: 5px;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -25,6 +26,7 @@ nav {
     border-bottom: 2px solid #FCAD38;
     z-index: 2;
 }
+
 .navIntroContainer {
     display: flex;
     justify-content: flex-start;
@@ -69,10 +71,12 @@ nav {
 .navIntroNameMobile {
     display: none;
 }
+
 .logo {
     width: 80px;
     height: 80px;
 }
+
 .navLinkContainer {
     display: flex;
     justify-content: flex-end;
@@ -121,8 +125,9 @@ nav {
     padding-top: 70px;
     height: 100vh;
     border-bottom: 2px solid #3F5963;
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(253,239,132,1) 0%, rgba(247,198,169,1) 54.2%, rgb(228, 230, 231) 100.3% );
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(253, 239, 132, 1) 0%, rgba(247, 198, 169, 1) 54.2%, rgb(228, 230, 231) 100.3%);
 }
+
 .socialLinks {
     position: absolute;
     display: flex;
@@ -138,18 +143,19 @@ nav {
     border-bottom-right-radius: 10px;
     z-index: 1;
 }
+
 .socialLinks :hover {
     border-radius: 10px;
     padding: 5px;
     transition: 0.5s;
 }
 
-.socialLinks a{
+.socialLinks a {
     text-decoration: none;
     color: #FAFAFA;
 }
 
-.socialLinks a:hover{
+.socialLinks a:hover {
     color: #0d172a;
 }
 
@@ -157,6 +163,7 @@ nav {
     background-color: #0d172a;
     color: #FAFAFA;
 }
+
 .intro_outerbox {
     display: flex;
     flex-direction: column;
@@ -176,10 +183,12 @@ nav {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
+
 .intro_container a {
     text-decoration: none;
     color: #0d172a;
 }
+
 .intro_container a:hover {
     text-decoration: none;
     color: #FAFAFA;
@@ -208,12 +217,13 @@ nav {
     color: #0d172a;
     width: 100%;
 }
-.arrow a{
+
+.arrow a {
     text-decoration: none;
     color: #0d172a;
 }
 
-.arrow a:hover{
+.arrow a:hover {
     color: #FCAD38;
     transition: 0.5s;
     font-size: 5rem;
@@ -238,6 +248,7 @@ nav {
     border-bottom: 2px solid #3F5963;
     scroll-margin-top: 5.4rem;
 }
+
 .introAboutMe {
     width: 50vw;
 }
@@ -281,7 +292,7 @@ nav {
 
 .skill {
     flex-direction: row;
-    align-content:space-between ;
+    align-content: space-between;
     justify-content: center;
     text-align: center;
     background-color: #FAFAFA;
@@ -347,7 +358,7 @@ h3 {
     border-radius: 20px;
 }
 
-.description:hover{
+.description:hover {
     background-color: rgba(252, 173, 56, 0.2);
     border: 1px solid #FCAD38;
     transition: 0.5s;
@@ -363,14 +374,15 @@ h3 {
     transform: scale(105%);
     transition: 0.5s
 }
+
 .projectLinks {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
 }
 
 .projectLinks a {
     font-weight: 900;
-    color:#000000;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -429,7 +441,7 @@ footer {
     color: #FFFFFF;
 }
 
-.backToTop a:hover{
+.backToTop a:hover {
     color: #FFFFFF;
     transition: 0.5s;
     font-size: 3rem;
@@ -486,29 +498,34 @@ footer {
         gap: 0;
         align-items: end;
     }
+
     .socialLinks {
         display: none;
     }
+
     .aboutMeMainContainer {
         display: flex;
         flex-direction: column;
         margin-top: 5px;
     }
 
-    .intro{
+    .intro {
         font-size: 1.3rem;
     }
+
     .introAboutMe {
-        width: 90vw ;
+        width: 90vw;
         align-items: center;
     }
+
     .skillsContainer {
         width: 90vw;
     }
+
     .content {
         display: flex;
         flex-direction: column;
-        width:95vw;
+        width: 95vw;
         align-items: center;
         gap: 5px;
     }
@@ -519,7 +536,7 @@ footer {
     }
 
     .description {
-        margin-left:0;
+        margin-left: 0;
         width: 400px;
         height: 300px;
     }
