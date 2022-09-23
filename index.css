@@ -431,14 +431,33 @@ footer {
     color: #0d172a;
 }
 
+/*.backToTop {*/
+/*    font-size: 2rem;*/
+/*    color: #0d172a;*/
+/*}*/
+
+/*.backToTop a {*/
+/*    text-decoration: none;*/
+/*    color: #FFFFFF;*/
+/*}*/
+
+/*.backToTop a:hover {*/
+/*    color: #FFFFFF;*/
+/*    text-decoration: none;*/
+/*    transition: 0.5s;*/
+/*    font-size: 3rem;*/
+/*}*/
+
 .backToTop {
     font-size: 2rem;
+    text-align: center;
     color: #0d172a;
+    width: 100%;
 }
 
 .backToTop a {
     text-decoration: none;
-    color: #FFFFFF;
+    color: #0d172a;
 }
 
 .backToTop a:hover {
