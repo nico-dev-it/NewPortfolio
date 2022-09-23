@@ -330,6 +330,8 @@ h3 {
 
 .description:hover{
     background-color: rgba(252, 173, 56, 0.2);
+    border: 1px solid #FCAD38;
+    transition: 0.5s;
 }
 
 .projectImage {
@@ -446,6 +448,7 @@ footer {
     .navLinkContainer {
         display: flex;
         flex-direction: column;
+        gap: 0;
     }
     .socialLinks {
         display: none;
