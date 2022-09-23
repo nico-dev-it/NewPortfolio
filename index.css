@@ -200,6 +200,25 @@ nav {
     font-size: 12px;
 }
 
+.arrow {
+    font-size: 4rem;
+    position: absolute;
+    bottom: 5px;
+    text-align: center;
+    color: #0d172a;
+    width: 100%;
+}
+.arrow a{
+    text-decoration: none;
+    color: #0d172a;
+}
+
+.arrow a:hover{
+    color: #FCAD38;
+    transition: 0.5s;
+    font-size: 5rem;
+}
+
 .aboutMeMainContainer {
     display: flex;
     flex-direction: row;
