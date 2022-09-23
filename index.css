@@ -465,15 +465,18 @@ footer {
     .content {
         display: flex;
         flex-direction: column;
-        width: 95vw;
+        width:95vw;
+        align-items: center;
     }
 
     .projectImage {
-        width: 95vw;
+        width: 400px;
+        height: 300px;
     }
 
     .description {
-        width: 95vw;
         margin-left:0;
+        width: 400px;
+        height: 300px;
     }
 }
