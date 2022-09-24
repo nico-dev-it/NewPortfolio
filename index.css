@@ -127,7 +127,6 @@ nav {
     background-color: #0d172a;
     padding: 5px;
     border-radius: 10px;
-    width: 70px;
 }
 
 #CV:hover {
@@ -587,5 +586,9 @@ footer {
     .contactMe {
         align-items: center;
         margin-bottom: 5px;
+    }
+
+    #CV {
+        padding: 2px;
     }
 }
