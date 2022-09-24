@@ -569,13 +569,13 @@ footer {
     }
 
     .projectImage {
-        width: 400px;
+        width: 390px;
         height: 300px;
     }
 
     .description {
         margin-left: 0;
-        width: 400px;
+        width: 390px;
         height: 300px;
     }
 
@@ -590,5 +590,9 @@ footer {
 
     #CV {
         padding: 2px;
+    }
+
+    .header {
+        padding-top: 20px;
     }
 }
