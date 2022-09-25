@@ -64,10 +64,6 @@ nav {
     transition: transform 0.3s ease;
 }
 
-.navIntroContainer a:hover::before {
-    transform: scaleX(1);
-}
-
 .navIntroNameMobile {
     display: none;
 }
