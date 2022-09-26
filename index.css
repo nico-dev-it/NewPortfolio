@@ -592,3 +592,34 @@ footer {
         padding-top: 20px;
     }
 }
+
+@media screen and (max-height: 500px) {
+    .navLinkContainer {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+    }
+
+    nav {
+        height: 15vh;
+    }
+
+    .logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .arrow {
+        bottom: 20px;
+        text-align: end;
+    }
+
+    #aboutMe {
+        scroll-margin-top: 3.7rem;
+    }
+
+    #portfolio {
+        scroll-margin-top: 3.7rem;
+    }
+}
