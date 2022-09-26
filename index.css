@@ -627,4 +627,9 @@ footer {
     #portfolio {
         scroll-margin-top: 3.7rem;
     }
+
+    .socialLinks {
+        display: flex;
+        top: 30%;
+    }
 }
