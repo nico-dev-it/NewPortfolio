@@ -554,6 +554,7 @@ footer {
 
     .skillsContainer {
         width: 90vw;
+        height: auto;
     }
 
     .content {
@@ -565,13 +566,13 @@ footer {
     }
 
     .projectImage {
-        width: 390px;
+        width: 370px;
         height: 300px;
     }
 
     .description {
         margin-left: 0;
-        width: 390px;
+        width: 370px;
         height: 300px;
     }
 
@@ -590,6 +591,10 @@ footer {
 
     .header {
         padding-top: 20px;
+    }
+
+    .portfolioIntro {
+        text-align: center;
     }
 }
 
