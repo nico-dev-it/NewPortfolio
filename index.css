@@ -670,15 +670,15 @@ a.nav-link:hover {
     nav {
         z-index: 15;
     }
-    .active .bar:nth-child(2) {
+    .activate .bar:nth-child(2) {
         opacity: 0;
     }
-    .active .bar:nth-child(1) {
+    .activate .bar:nth-child(1) {
         transform: translateY(8px) rotate(-315deg);
         width: 50px;
         background-color: #FCAD38;
     }
-    .active .bar:nth-child(3) {
+    .activate .bar:nth-child(3) {
         transform: translateY(-10px) rotate(-45deg);
         width: 50px;
         background-color: #FCAD38;
@@ -712,13 +712,13 @@ a.nav-link:hover {
         color: #FFFFFF;
     }
 
-    .active {
+    .activate {
         right: 0;
         z-index: 4;
         transition: 0.2s ease;
     }
 
-    .nav-menu.active {
+    .nav-menu.activate {
         background-color: #FCAD38;
         padding: 0
     }
@@ -764,8 +764,7 @@ a.nav-link:hover {
         margin-top: 7px
     }
 
-    .nav-menu.active {
-        /*background-color: #FCAD38;*/
+    .nav-menu.activate {
         top: 56px;
     }
 }
