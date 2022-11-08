@@ -667,6 +667,9 @@ a.nav-link:hover {
         margin-top: 25px;
     }
 
+    nav {
+        z-index: 15;
+    }
     .active .bar:nth-child(2) {
         opacity: 0;
     }
@@ -702,7 +705,7 @@ a.nav-link:hover {
     a.nav-link {
         margin: 1rem 0;
         color: #333;
-        z-index: 1;
+        z-index: 4;
     }
 
     a.nav-link:hover {
@@ -711,12 +714,13 @@ a.nav-link:hover {
 
     .active {
         right: 0;
-        z-index: 100;
+        z-index: 4;
         transition: 0.2s ease;
     }
 
     .nav-menu.active {
         background-color: #FCAD38;
+        padding: 0
     }
 
 }
@@ -758,5 +762,10 @@ a.nav-link:hover {
 
     .hamburger {
         margin-top: 7px
+    }
+
+    .nav-menu.active {
+        /*background-color: #FCAD38;*/
+        top: 56px;
     }
 }
