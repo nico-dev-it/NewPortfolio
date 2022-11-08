@@ -520,6 +520,7 @@ a.nav-link:hover {
     height: 3px;
     display: block;
     color: #0d172a;
+    border-radius: 50px;
     padding: 0;
     align-items: center;
     margin: 6px;
@@ -671,11 +672,13 @@ a.nav-link:hover {
     }
     .active .bar:nth-child(1) {
         transform: translateY(8px) rotate(-315deg);
-        width: 50px
+        width: 50px;
+        background-color: #FCAD38;
     }
     .active .bar:nth-child(3) {
         transform: translateY(-10px) rotate(-45deg);
-        width: 50px
+        width: 50px;
+        background-color: #FCAD38;
     }
 
     .nav-menu {
@@ -700,6 +703,10 @@ a.nav-link:hover {
         margin: 1rem 0;
         color: #333;
         z-index: 1;
+    }
+
+    a.nav-link:hover {
+        color: #FFFFFF;
     }
 
     .active {
@@ -747,5 +754,9 @@ a.nav-link:hover {
     .socialLinks {
         display: flex;
         top: 30%;
+    }
+
+    .hamburger {
+        margin-top: 7px
     }
 }
